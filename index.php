@@ -1,3 +1,3 @@
 <?php
-echo "This is php webpage"
+echo "This is php webpage for Poll scm"
   ?>
