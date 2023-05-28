@@ -1,3 +1,3 @@
 <?php
-echo "This is php webpage for Poll scm"
+echo "This is php webpage for Poll scm managed by jenkins"
   ?>
