@@ -2,8 +2,19 @@ pipeline {
   agent any
   stages {
     stage('Getcode') {
-      steps {
-        publishChecks()
+      parallel {
+        stage('Getcode') {
+          steps {
+            publishChecks()
+          }
+        }
+
+        stage('build') {
+          steps {
+            sleep 4
+          }
+        }
+
       }
     }
 
