@@ -12,6 +12,7 @@ pipeline {
         stage('build') {
           steps {
             sleep 4
+            sleep 10
           }
         }
 
